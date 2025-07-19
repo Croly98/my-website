@@ -37,7 +37,7 @@
     left: -300px;
     width: 800px;
     height: 800px;
-    background: url('/public/white_flare_xp.png') no-repeat;
+    background: url('/src/assets/white_flare_xp.png') no-repeat;
     background-size: cover;
     pointer-events: none;
     z-index: 5;

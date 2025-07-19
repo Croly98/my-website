@@ -1,0 +1,21 @@
+/* style for card the image characteristics*/
+
+.Card img {
+    width: 125px; /*makes image 125px */
+    height: 125px; /*same for icon shape */
+    background-color: transparent; /* remove or add if needed */
+    outline: 2px solid yellow;
+
+}
+
+/* this is everything BUT adjusting the actual image */
+
+.Card {
+  margin: 300px auto;   /* 100px from top, auto left/right to center */
+  text-align: right;   /* text alightment */
+  max-width: 350px;     /* limit width for image placement*/
+  background-color: transparent;
+  outline: 2px dashed red;
+  z-index: 10;
+}
+
