@@ -1,1 +1,12 @@
+/* a defualt margin is usually white!
+
+*/
+html, body {
+  margin: 0;                  /* Remove default margin so no unexpected gaps */
+  padding: 0;                 /* Remove default padding for consistency */
+  background-color: #5f8fd4;  /* Sets the background color of the entire page */
+  height: 100%;               /* Makes body/html fill the viewport height */
+  overflow: hidden;           /* Optional: prevents scrollbars */
+}
+
 
