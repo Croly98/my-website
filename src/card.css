@@ -1,8 +1,8 @@
 /* style for card the image characteristics*/
 
 .Card img {
-    width: 7vw; /*makes image 125px */
-    height: 7vw; /*same for icon shape */
+    width: 5vw; /*makes image 125px */
+    height: 5vw; /*same for icon shape */
     background-color: transparent; /* remove or add if needed */
     outline: 2px solid yellow;
     border-radius: 5%; /* makes it a smooth square */
@@ -14,25 +14,27 @@
 
 .Card {
   position: fixed;               /* fixed position so it stays put on scroll/resize */
-  top: 50%;                     /* vertically center */
-  left: 55%;                    /* a bit right of center (50% is exact center) */
+  top: 41%;                     /* vertically center */
+  left: 61%;                    /* a bit right of center (50% is exact center) */
   transform: translate(-50%, -70%); /* center card relative to its own size */
-  
-  max-width: 300px;             /* max width for your card */
+  border-radius: 2.25%; /* makes it a smooth square, hides square from profile pic*/
+  display: flex;                  /* ← puts children (img + name) in a row */
+  align-items: right;           /* vertically centers the text next to the image */
+  gap: 0vw;                      /* spacing between image and name */
+
   width: 20vw;                  /* responsive width based on viewport width */
   
   text-align: center;
-  background-color: transparent;
-  outline: 2px dashed red;
+  background-color: #1e4c9d;
+  outline: 1px  white solid; /* white outline around the card */
   z-index: 10;
 }
 
 .card-name {
     font-family: 'Times New Roman', Times, serif;
     position: relative; /* allows for positioning */
-    right: -50%;
-    top: 50%;
-    font-size: 1.5vw; /* Responsive font size */
+    right: -5%;
+    font-size: 1.0vw; /* Responsive font size */
     color: white; /* Text color */
     margin-top: 1px; /* Space between image and name */
     text-shadow: 1px 1px 2px black; /* Optional: adds a shadow to the text for better visibility */

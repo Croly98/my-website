@@ -2,17 +2,29 @@
 import React from "react";
 import profilePic from '/src/assets/wild_robot.jpg'
 import './card.css'
+import cv from '/src/assets/cv.png'
 
+// card components with pictures and names
 function Card(){
     return (
+<>
     <div className="Card">
-        <img src={profilePic} alt="fox profile picture"></img> 
+        <img src={profilePic} alt="Wild Robot Movie Image"></img> 
     
-    <div className="card-name">
+        <div className="card-name">
         <h2>Josh</h2>
-    </div>   
-        
+        </div>
+
     </div>
+
+    <div className="Card" style={{ top: "52%", left: "61%" }}>
+        <img src={cv} alt="CV"></img>
+
+    <div className="card-name">
+        <h2>CV</h2>
+    </div>
+    </div>
+</>
     );
 }
 
