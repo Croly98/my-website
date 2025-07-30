@@ -5,28 +5,26 @@ import './card.css'
 import cv from '/src/assets/cv.png'
 
 // card components with pictures and names
-function Card(){
+function Card() {
     return (
-<>
-    <div className="Card">
-        <img src={profilePic} alt="Wild Robot Movie Image"></img> 
-    
-        <div className="card-name">
-        <h2>Josh</h2>
+        <div className="card-container">
+            <div className="Card">
+                <img src={profilePic} alt="Wild Robot Movie Image" />
+                <div className="card-name">
+                    <h2>Josh</h2>
+                </div>
+            </div>
+
+            <div className="Card">
+                <img src={cv} alt="CV" />
+                <div className="card-name">
+                    <h2>CV</h2>
+                </div>
+            </div>
         </div>
-
-    </div>
-
-    <div className="Card" style={{ top: "52%", left: "61%" }}>
-        <img src={cv} alt="CV"></img>
-
-    <div className="card-name">
-        <h2>CV</h2>
-    </div>
-    </div>
-</>
     );
 }
+
 
 //i could have it instead of entering a password you put in your name!
 // which is used to thank them for donwloading cv, loading webpage etc
