@@ -18,12 +18,33 @@ return (
     <div className="s-flare"></div>
     <div className="s-white-line"></div>
 
+// start text
+
+    <div className="start-text">
+    <h5 className="line-1">My</h5>
+    <h3 className="line-2">:)</h3>
+    <h2 className="line-3">Website</h2>
+    <h1 className="line-4">To begin, click a user name</h1>
+</div>
+
   <div className="s-footer-writing">
     <h5>Thanks for checking out my page!
       <br />
       I hope you like it!
     </h5>
   </div>
+
+    <div className="s-footer-writing-2">
+  <h5 className="icon-text">
+    <img
+      src="src/assets/turn-off-icon.png"
+      alt="(windows-xp power button)"
+      className="power-icon"
+    />
+    Check out my reference for this page!
+  </h5>
+</div>
+
 
     </>
 

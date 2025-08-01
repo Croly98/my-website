@@ -102,8 +102,7 @@
 .s-footer-writing {
     position: fixed;
     bottom: 2%;
-    left: 85%;
-    transform: translateX(-50%);
+    left: 80%;
     color: white;
     font-family: 'Times New Roman', Times, serif; /* 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; I need this font later */
     font-size: 1.2vw; /* Responsive font size */
@@ -111,3 +110,70 @@
     z-index: 6; /* Above everything else */
 }
 
+.s-footer-writing-2 {
+    position: fixed;
+    bottom: 2%;
+    left: 15%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif; /* 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; I need this font later */
+    font-size: 1.2vw; /* Responsive font size */
+    text-align: center;
+    z-index: 6; /* Above everything else */
+}
+
+/* start text */
+/* container layout */
+.start-text {
+    position: fixed;
+    z-index: 10; /* Above the flare and white line */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Each line has its own fixed position and style */
+.line-1 { /* My */
+    position: fixed;
+    top: 40%;
+    left: 27.5%;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.line-2 { /* :) */
+    position: fixed;
+    top: 40%;
+    left: 38%;
+    font-size: 2vw;
+    color: rgb(214, 72, 20);
+}
+
+.line-3 { /* Website */
+    position: fixed;
+    top: 41%;
+    left: 27.5%;
+    font-size: 3vw;
+    color: white;
+}
+
+.line-4 { /* To begin, click a user name */
+    position: fixed;
+    top: 50%;
+    left: 22.5%;
+    font-size: 2.25vw;
+    color: white;
+}   
+
+
+/* power button */
+.icon-text {
+  display: inline-flex;
+  align-items: center;  /* vertically center image & text */
+  gap: 0.5vw;           /* space between icon and text */
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2vw;
+}
+
+.power-icon {
+  width: 2.5vw;
+  height: 2.5vw;
+}
