@@ -1,5 +1,10 @@
 import React from "react";
-import './Start-background.css';                                              // imports the react library // not need anymore (since update) but good habit
+import './Start-background.css';
+
+// for page ref
+import { useState } from "react";
+import './modal.css'; // imports the css file for the modal
+import Modal from './modal.jsx'; // imports the modal component
 
 // windows XP background colours: 
 // blue, light blue, light white, gold tint and a flare
@@ -16,21 +21,15 @@ return (
     <div className="s-middle"></div>
 
 // footer with text
-    <div className="s-footer">
+<div className="s-footer">
   <div className="footer-left">
-    
-    <h5>Check out my reference for this page!
-      <img 
-        src="src/assets/turn-off-icon.png" 
-        alt="Windows XP power button" 
-        className="footer-icon"
-      />
+    <h5>
+      <Modal /> {/* replaces the Windows XP power button image */}
     </h5>
   </div>
 
   <div className="footer-right">
     <h5>
-      
       Thanks for checking out my page!
       <br />
       I hope you like it!
