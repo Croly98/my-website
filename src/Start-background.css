@@ -18,16 +18,45 @@
     z-index: 1;  /* Lowest */
 }
 
+
+/* footer with text */
 .s-footer {
-    background-color: #1e4c9d;
-    width: 100%;
-    height: 10%;
-    position: fixed;
-    z-index: 3;  /* Highest of all */
-    bottom: 0;
-    border-top: 1px solid #ba9775; /*colour on top of border*/
-    
+  background-color: #1e4c9d;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  border-top: 1px solid #ba9775;
+  
+  display: flex;                  /* Makes left/right sections */
+  justify-content: space-between; /* Pushes them to opposite sides */
+  align-items: center;            /* Centers vertically inside footer */
+  padding: 0 3vw;                  /* Space from edges */
 }
+
+.footer-left h5,
+.footer-right h5 {
+  margin: 0;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;  /* Centers icon with text */
+  gap: 0.5vw;           /* Space between icon and text */
+  text-align: center; /* Center text */
+}
+
+/*just so its not hugging the right */
+.footer-right h5 {
+  margin-right: 25%;
+}
+
+.footer-icon {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
 
 /* flare effect */
 .s-flare{
